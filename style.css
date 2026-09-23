@@ -98,3 +98,47 @@ header .btn:hover {
         }
 }
 
+.saiba-mais {
+    width: 700px;
+    margin: 40px auto;
+    transform: translateX(30px);
+}
+
+.saiba-mais h2 {
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 24px;
+}
+
+.card {
+    width: 217px;
+    flex-shrink: 0;
+}
+
+.card img {
+    width: 217px;
+    height: 217px;
+    object-fit: cover;
+    display: block;
+}
+
+.card h3 {
+    font-size: 14px;
+    line-height: 1.4;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.card a {
+    font-size: 12px;
+}
+.card a {
+    front-size: 11px;
+    color: #333;
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 8px;
+}
