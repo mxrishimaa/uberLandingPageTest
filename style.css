@@ -110,37 +110,58 @@ header .btn:hover {
 
 .cards {
     display: flex;
-    gap: 24px;
+    margin: 25px auto;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    padding: 0 20px;
 }
 
 .card {
-    width: 217px;
+    width: 300px;
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 .card img {
-    width: 217px;
-    height: 217px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
+    object-position: center;
     display: block;
+    border-radius: 6px;
 }
-
+ 
 .card h3 {
-    font-size: 14px;
-    line-height: 1.4;
+    font-size: 15px;
+    line-height: 1.3;
     font-weight: 400;
-    margin: 10px 0;
+    margin: 12px 0 6px;
+    width: 100%;
+    text-align: left;
 }
 
 .card a {
     font-size: 12px;
-}
-.card a {
-    front-size: 11px;
     color: #333;
     text-decoration: underline;
     display: inline-block;
     margin-top: 8px;
+    width: 100%;
+    text-align: left;
+}
+
+/* Limitar o título da terceira carta a 2 linhas */
+.cards .card:nth-child(3) h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 .blue {
     background-color: #0b2a5b;
@@ -169,4 +190,9 @@ header .btn:hover {
     font-family: Arial, sans-serif;
     font-size: 13px;
     font-weight: 600;
+}
+
+hero h1{
+    padding: 0;
+    
 }
