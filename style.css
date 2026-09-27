@@ -136,7 +136,7 @@ header .btn:hover {
     font-size: 12px;
 }
 .card a {
-    front-size: 11px;
+    font-size: 11px;
     color: #333;
     text-decoration: underline;
     display: inline-block;
@@ -169,4 +169,28 @@ header .btn:hover {
     font-family: Arial, sans-serif;
     font-size: 13px;
     font-weight: 600;
+}
+
+.hero {
+    background: black;
+
+    h1 {
+        color: #fff;
+
+    }
+
+    p {
+        color: #fff;
+
+    }
+
+    .herotext {
+        display: flex;
+        margin-left: 160px;
+        
+        #title {
+            padding-top: 100px;
+        }
+        
+    }
 }
